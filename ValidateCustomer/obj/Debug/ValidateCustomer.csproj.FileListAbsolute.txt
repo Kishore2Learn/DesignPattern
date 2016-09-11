@@ -1,0 +1,7 @@
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\ValidateCustomer\bin\Debug\ValidateCustomer.dll
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\ValidateCustomer\bin\Debug\ValidateCustomer.pdb
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\ValidateCustomer\bin\Debug\InterfaceCustomer.dll
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\ValidateCustomer\bin\Debug\InterfaceCustomer.pdb
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\ValidateCustomer\obj\Debug\ValidateCustomer.csprojResolveAssemblyReference.cache
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\ValidateCustomer\obj\Debug\ValidateCustomer.dll
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\ValidateCustomer\obj\Debug\ValidateCustomer.pdb

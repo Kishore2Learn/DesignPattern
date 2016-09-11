@@ -1,0 +1,5 @@
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\bin\Debug\InterfaceDAL.dll
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\bin\Debug\InterfaceDAL.pdb
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.csprojResolveAssemblyReference.cache
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.dll
+C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.pdb
