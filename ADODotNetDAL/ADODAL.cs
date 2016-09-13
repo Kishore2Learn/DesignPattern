@@ -17,17 +17,26 @@ namespace ADODotNetDAL
         protected SqlConnection objConn = null;
         protected SqlCommand objCommand = null;
 
-        public TemplateADO(string _connectionString) : base(_connectionString)
+        public TemplateADO() : base()
         {
             
         }
 
         public void Open()
         {
-            objConn = new SqlConnection(ConnectionString);
-            objConn.Open();
-            objCommand = new SqlCommand();
-            objCommand.Connection = objConn;
+            try
+            {
+                objConn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DbCustomer;Integrated Security=True");
+                objConn.Open();
+                objCommand = new SqlCommand();
+                objCommand.Connection = objConn;
+            }
+            catch (Exception ex)
+            {
+                
+                throw;
+            }
+            
         }
 
         public abstract void ExecuteCommand(AnyType obj);
@@ -70,27 +79,28 @@ namespace ADODotNetDAL
         }
     }
 
-    public class CustomerDAL : TemplateADO<ICustomer>
+    public class CustomerDAL : TemplateADO<CustomerBase>
     {
-        public CustomerDAL(string _connectionString) : base(_connectionString)
+        public CustomerDAL(string _connectionString) : base()
         {
         }
 
-        public override List<ICustomer> ExecuteCommand()
+        public override List<CustomerBase> ExecuteCommand()
         {
             objCommand.CommandText = "select * from dbo.tblcust";
             SqlDataReader objReader = objCommand.ExecuteReader();
-            List<ICustomer> objCustomers = new List<ICustomer>();
+            List<CustomerBase> objCustomers = new List<CustomerBase>();
             while (objReader.Read())
             {
-                ICustomer obj = Factory<ICustomer>.Create("Customer");
+                CustomerBase obj = Factory<CustomerBase>.Create("Customer");
+                obj.Id = (int)objReader["Id"];
                 obj.CustomerName = objReader["CustomerName"].ToString();
                 objCustomers.Add(obj);
             }
             return objCustomers;
         }
 
-        public override void ExecuteCommand(ICustomer obj)
+        public override void ExecuteCommand(CustomerBase obj)
         {
             objCommand.CommandText = "insert into tblcust values('"
                                     + obj.CustomerName +
@@ -98,7 +108,7 @@ namespace ADODotNetDAL
                                     + "'," + obj.BillAmount
                                     + ",'" + obj.BillDate + "','" +
                                     obj.Address + "','"
-                                    + obj.Type + "')";
+                                    + obj.CustomerType + "')";
             objCommand.ExecuteNonQuery();
         }
     }

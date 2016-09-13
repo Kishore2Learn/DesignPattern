@@ -13,9 +13,8 @@ namespace CommonDAL
         protected string ConnectionString = "";
         protected List<AnyType> AnyTypes = new List<AnyType>();
 
-        public AbstractDAL(string _connectionString)
+        public AbstractDAL()
         {
-            ConnectionString = _connectionString;
         }
 
         public virtual void Add(AnyType obj)

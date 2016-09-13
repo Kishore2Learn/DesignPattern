@@ -1,0 +1,13 @@
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\obj\Debug\EFDAL.csprojResolveAssemblyReference.cache
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\EFDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\EFDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\EntityFramework.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\InterfaceCustomer.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\InterfaceDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\InterfaceCustomer.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\InterfaceDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\EntityFramework.xml
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\obj\Debug\EFDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\EFDAL\obj\Debug\EFDAL.pdb

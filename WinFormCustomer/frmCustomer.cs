@@ -17,7 +17,9 @@ namespace WinFormCustomer
 {
     public partial class frmCustomer : Form
     {
-        private ICustomer _cust;
+        private CustomerBase _cust;
+        private string _DALtype;
+        private IDAL<CustomerBase>  dal;
 
         public frmCustomer()
         {
@@ -26,12 +28,19 @@ namespace WinFormCustomer
 
         private void setCustomer()
         {
-            _cust.CustomerName = txtCustomerName.Text;
-            _cust.PhoneNumber = txtPhoneNumber.Text;
-            _cust.BillAmount = Convert.ToDecimal(txtBillAmount.Text==string.Empty?"0": txtBillAmount.Text);
-            _cust.BillDate = dtpBillDate.Value;
-            _cust.Address = txtAddress.Text;
-            _cust.Type = cbCustType.Text;
+            try
+            {
+                _cust.CustomerName = txtCustomerName.Text;
+                _cust.PhoneNumber = txtPhoneNumber.Text;
+                _cust.BillAmount = Convert.ToDecimal(txtBillAmount.Text == string.Empty ? "0" : txtBillAmount.Text);
+                _cust.BillDate = dtpBillDate.Value;
+                _cust.Address = txtAddress.Text;
+                _cust.CustomerType = cbCustType.Text;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("One or more details missing : "+ ex.Message);
+            }
         }
 
         private void btnValidate_Click(object sender, EventArgs e)
@@ -54,10 +63,8 @@ namespace WinFormCustomer
             try
             {
                 _cust.Validate();
-
-                IDAL<ICustomer> customerDAL  = FactoryDAL<IDAL<ICustomer>>.Create("ADODAL");
-                customerDAL.Add(_cust);
-                customerDAL.Save();
+                dal.Add(_cust);
+                dal.Save();
                 LoadGrid();
                 MessageBox.Show("New "+cbCustType.Text + " added successfully");
             }
@@ -69,17 +76,38 @@ namespace WinFormCustomer
 
         private void LoadGrid()
         {
-            IDAL<ICustomer> customerDAL = FactoryDAL<IDAL<ICustomer>>.Create("ADODAL");
-            dtgCustomers.DataSource= customerDAL.Search();
+            try
+            {
+                dtgCustomers.DataSource = dal.Search();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to load data in grid : " + ex.Message);
+            }
         }
 
         private void cbCustType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _cust = Factory<ICustomer>.Create(cbCustType.Text);
+            _cust = Factory<CustomerBase>.Create(cbCustType.Text);
         }
 
         private void frmCustomer_Load(object sender, EventArgs e)
         {
+            comboBox1.SelectedIndex = 0;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            _DALtype = comboBox1.Text;
+            try
+            {
+                dal = FactoryDAL<IDAL<CustomerBase>>.getDal(_DALtype);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to create DAL : "+ ex.Message);
+            }
             LoadGrid();
         }
     }

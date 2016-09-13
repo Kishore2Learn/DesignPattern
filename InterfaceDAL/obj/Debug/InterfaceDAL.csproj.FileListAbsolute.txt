@@ -3,3 +3,7 @@ C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\bin\Debug\Interfac
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.csprojResolveAssemblyReference.cache
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.dll
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceDAL\bin\Debug\InterfaceDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceDAL\bin\Debug\InterfaceDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceDAL\obj\Debug\InterfaceDAL.pdb

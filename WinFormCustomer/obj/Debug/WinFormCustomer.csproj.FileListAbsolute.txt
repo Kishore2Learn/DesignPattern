@@ -43,7 +43,6 @@ C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\Factor
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\FactoryDAL.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\InterfaceCustomer.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\InterfaceDAL.pdb
-C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\Microsoft.Practices.Unity.xml
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\ValidateCustomer.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\CustomerDesignPattern.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\ADODotNetDAL.pdb
@@ -52,3 +51,9 @@ C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\obj\Debug\WinFor
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\obj\Debug\WinFormCustomer.frmCustomer.resources
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\obj\Debug\WinFormCustomer.Properties.Resources.resources
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.GenerateResource.Cache
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\EFDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\EntityFramework.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\EFDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\EntityFramework.xml
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\WinFormCustomer\bin\Debug\EntityFramework.SqlServer.xml

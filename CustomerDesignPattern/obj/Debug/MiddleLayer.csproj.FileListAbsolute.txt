@@ -5,3 +5,10 @@ C:\Kishore\DotNet\Projects\CustomerDesignPattern\CustomerDesignPattern\obj\Debug
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\CustomerDesignPattern\obj\Debug\CustomerDesignPattern.pdb
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\CustomerDesignPattern\bin\Debug\InterfaceCustomer.dll
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\CustomerDesignPattern\bin\Debug\InterfaceCustomer.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CustomerDesignPattern\bin\Debug\CustomerDesignPattern.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CustomerDesignPattern\bin\Debug\CustomerDesignPattern.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CustomerDesignPattern\bin\Debug\InterfaceCustomer.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CustomerDesignPattern\bin\Debug\InterfaceCustomer.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CustomerDesignPattern\obj\Debug\MiddleLayer.csprojResolveAssemblyReference.cache
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CustomerDesignPattern\obj\Debug\CustomerDesignPattern.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CustomerDesignPattern\obj\Debug\CustomerDesignPattern.pdb

@@ -3,3 +3,7 @@ C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceCustomer\bin\Debug\Int
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceCustomer\obj\Debug\InterfaceCustomer.dll
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceCustomer\obj\Debug\InterfaceCustomer.pdb
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\InterfaceCustomer\obj\Debug\InterfaceCustomer.csprojResolveAssemblyReference.cache
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceCustomer\bin\Debug\InterfaceCustomer.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceCustomer\bin\Debug\InterfaceCustomer.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceCustomer\obj\Debug\InterfaceCustomer.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\InterfaceCustomer\obj\Debug\InterfaceCustomer.pdb

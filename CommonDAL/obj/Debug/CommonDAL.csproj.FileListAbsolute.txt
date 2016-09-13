@@ -5,3 +5,10 @@ C:\Kishore\DotNet\Projects\CustomerDesignPattern\CommonDAL\bin\Debug\InterfaceDA
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\CommonDAL\obj\Debug\CommonDAL.csprojResolveAssemblyReference.cache
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\CommonDAL\obj\Debug\CommonDAL.dll
 C:\Kishore\DotNet\Projects\CustomerDesignPattern\CommonDAL\obj\Debug\CommonDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CommonDAL\bin\Debug\CommonDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CommonDAL\bin\Debug\CommonDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CommonDAL\bin\Debug\InterfaceDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CommonDAL\bin\Debug\InterfaceDAL.pdb
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CommonDAL\obj\Debug\CommonDAL.csprojResolveAssemblyReference.cache
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CommonDAL\obj\Debug\CommonDAL.dll
+C:\Kishore\DotNet\Projects\GitHub\DesignPattern\CommonDAL\obj\Debug\CommonDAL.pdb

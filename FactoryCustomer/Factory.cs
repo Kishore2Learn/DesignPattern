@@ -61,11 +61,11 @@ namespace FactoryCustomer
         {
             _custs = new UnityContainer();
 
-            _custs.RegisterType<ICustomer, Customer>(
+            _custs.RegisterType<CustomerBase, Customer>(
                 "Customer"
                 , new InjectionConstructor(new CustomerValidation()));
 
-            _custs.RegisterType<ICustomer, Lead>(
+            _custs.RegisterType<CustomerBase, Lead>(
                 "Lead"
                 , new InjectionConstructor(new LeadValidation()));
 

@@ -30,7 +30,6 @@ C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\bin\Debug\CommonDAL
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\bin\Debug\FactoryCustomer.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\bin\Debug\InterfaceCustomer.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\bin\Debug\InterfaceDAL.pdb
-C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\bin\Debug\Microsoft.Practices.Unity.xml
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\bin\Debug\ValidateCustomer.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\bin\Debug\CustomerDesignPattern.pdb
 C:\Kishore\DotNet\Projects\GitHub\DesignPattern\ADODotNetDAL\obj\Debug\ADODotNetDAL.csprojResolveAssemblyReference.cache
